@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+ <meta charset="UTF-8">
+    <title>Rajska.pl</title>
+    <meta name="description" content="Blogowanie, gotowanie, lifestyle, sposoby na ułatwienie sobie życia poprzez oszczędność czasu." />
+    <meta name="keywords" content="blog, macierzyństwo, najlepszy blog, gotowanie, fit, lifestyle"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="author" content="Sabina Sobieraj" />
+    <link rel="stylesheet" href="tytulowa.css" type="text/css"/>
+    <link rel="stylesheet" href="css/fontello.css" type="text/css"/>
+    <link rel="stylesheet" href="tytulowa.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> <! dodanie biblioteki Jquery z przegladarki >
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> <! bootstrap >
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Lato:300i,400,400i,700,700i,900,900i&amp;subset=latin-ext" rel="stylesheet">
+</head>
+<body  onload="startTime()">
+
+    <div id="container">
+    <div class="rectangle">
+        <div id="logo">
+<a href="kontakt.html" target="_blank" title="przejdź do danych">Kontakt</a>
+        </div>
+        <div id="logo"><a href="moje.html" target="_blank" title="przejdź do informacji o mnie">O mnie</a></div>
+        <div id="zegar">12:00:00</div>
+        <div style="clear:both;"></div>
+    </div>
+
+   
+   
+    <div class="square">
+    <ul id="navigation">
+        <li><a href="http://127.0.0.1:5500/tytulowa.html#">Główna</a></li>
+        <li><a href="#">Lifestyle</a></li>
+        <li><a href="#">Macierzyństwo</a>
+            <ul class="subnav">
+                <li><a href="#">Ciąża</a></li>
+                <li><a href="#">Wyprawka</a></li>
+                <li><a href="#">Poród</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Życie od kuchni</a>
+            <ul class="subnav">
+                <li><a href="#">Ciasta bez pieczenia</a></li>
+                <li><a href="#">Szybki obiad</a></li>
+                <li><a href="#">Ciasta</a></li>
+            </ul>
+        </li>
+        <li><a href="remontowo.html">Galeria</a></li>
+        <li><a href="#">Przemyślenia</a></li>
+        <ul class="subnav">
+        </ul>
+    </ul>
+        
+        <div style="clear: both"></div>
+    </div>
+    <div class="blog">
+        <div class="tile5">
+           <a href="https://smaker.pl/przepis-kinder-country,117118,jomonika.html" target="_blank" title= "zerknij tutaj"> <img width="480" height="304" src="img/kawa.jpg" />
+    </a>
+        </div> 
+    <! Foto to click Start ------------------------------------------------------------------------------------->
+    <img class="tile6" src="img\widok.jpg"  id="modalBtnFoto_1" alt="SmallFoto" style="width:230px;height:142px;">
+    <img class="tile6" src="img\widok_2.jpg"  id="modalBtnFoto_2" alt="SmallFoto" style="width:230px;height:142px;" >
+    <img class="tile6" src="img\widok_3.jpg"  id="modalBtnFoto_3" alt="SmallFoto" style="width:230px;height:142px;" >
+    <img class="tile6" src="img\widok_4.jpg"  id="modalBtnFoto_4" alt="SmallFoto" style="width:230px;height:142px;" >
+    <! Foto End  -----------------------------------------------------------------------------------------------> 
+    <div>
+
+            <p id="tekstNadSliderem">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate fuga temporibus voluptas?
+                    Libero iste aperiam unde itaque, eaque ratione blanditiis aliquid. Voluptatibus temporibus explicabo 
+                    eligendi distinctio, aliquid molestias earum accusamus quaerat culpa quo rerum blanditiis omnis rem unde 
+                    ab doloremque magnam! Dolore eaque animi, esse blanditiis labore, reiciendis nostrum quae explicabo 
+                    optio nisi molestias vel quia ratione! Atque voluptatibus sequi, fugiat, placeat voluptate officiis 
+                    ducimus numquam odio, quam quisquam expedita. Animi et quae accusamus tenetur officiis facilis maiores 
+                    suscipit consequatur, illo facere, eum fugiat temporibus doloribus nemo ex repellat eos adipisci? Voluptas
+                     eum dolor eius minus atque nemo, officiis explicabo minima quidem praesentium nesciunt assumenda est totam 
+                     repellat voluptatum eligendi molestias? Pariatur deleniti id aspernatur asperiores eveniet, consequatur 
+                     aliquam molestias atque ad tempora cumque corporis alias tempore quisquam expedita unde quos in delectus
+                      explicabo, at accusamus! Sapiente ratione, reprehenderit, expedita, quis perspiciatis facere adipisci 
+                      porro tenetur modi voluptatem soluta ullam consectetur nisi? Obcaecati facere, repellat consequatur 
+                      eveniet dicta ullam eum unde perspiciatis quae maxime nostrum veritatis, culpa, placeat dignissimos 
+                      laudantium. Modi laboriosam animi tempore provident veniam repellat dolore, tenetur accusamus nisi 
+                      id nesciunt tempora pariatur necessitatibus placeat voluptatum quo ipsam non. Porro velit in amet
+                       fuga saepe dicta officiis odio.
+                   </p>
+    
+    </div>
+    <! Modal Window Beggining  --------------------------------------------------------------------------------->  
+   
+    <! Modal window >
+    <div id="simpleModal" class="modal">
+        <div class="modal-content">
+
+            <!modal window Header >
+            <div class="modal-header">
+                <span class="closeBtn">&times;</span>
+            </div>
+
+
+            <! bodu of modal window >
+            <div class="modal-body"> 
+                <!- foto position ->
+                <img class="img-responsive" id="modalFoto" src="img\widok.jpg" />
+               
+            </div>
+
+            <! dal window footer>
+            <div class="modal-footer">
+            </div>
+                 
+        </div>   
+    </div><! Modal window END>
+<! Modal Window  End  -------------------------------------------------------------------------------------> 
+   
+<! Slider part  -------------------------------------------------------------------------------------------> 
+<div id="slider">
+        <ul class="slides">
+            <li class="slide slide1"><img src="img\Slide1.jpg" style="width:720px;height:400px;"/></li>
+            <li class="slide slide2"><img src="img\Slide2.jpg" style="width:720px;height:400px;"/></li>
+            <li class="slide slide3"><img src="img\Slide3.jpg" style="width:720px;height:400px;"/></li>
+            <li class="slide slide4"><img src="img\Slide4.jpg" style="width:720px;height:400px;"/></li>
+            <li class="slide slide5"><img src="img\Slide5.jpg" style="width:720px;height:400px;"/></li>
+            <li class="slide slide1"><img src="img\Slide6.jpg" style="width:720px;height:400px;"/></li>
+            <li class="slide slide1"><img src="img\Slide1.jpg" style="width:720px;height:400px;"/></li>
+        </ul>
+    </div>
+<! Slider part  End  -------------------------------------------------------------------------------------> 
+<div>
+
+        <p id="tekstPodSliderem">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate fuga temporibus voluptas?
+                Libero iste aperiam unde itaque, eaque ratione blanditiis aliquid. Voluptatibus temporibus explicabo 
+                eligendi distinctio, aliquid molestias earum accusamus quaerat culpa quo rerum blanditiis omnis rem unde 
+                ab doloremque magnam! Dolore eaque animi, esse blanditiis labore, reiciendis nostrum quae explicabo 
+                optio nisi molestias vel quia ratione! Atque voluptatibus sequi, fugiat, placeat voluptate officiis 
+                ducimus numquam odio, quam quisquam expedita. Animi et quae accusamus tenetur officiis facilis maiores 
+                suscipit consequatur, illo facere, eum fugiat temporibus doloribus nemo ex repellat eos adipisci? Voluptas
+                 eum dolor eius minus atque nemo, officiis explicabo minima quidem praesentium nesciunt assumenda est totam 
+                 repellat voluptatum eligendi molestias? Pariatur deleniti id aspernatur asperiores eveniet, consequatur 
+                 aliquam molestias atque ad tempora cumque corporis alias tempore quisquam expedita unde quos in delectus
+                  explicabo, at accusamus! Sapiente ratione, reprehenderit, expedita, quis perspiciatis facere adipisci 
+                  porro tenetur modi voluptatem soluta ullam consectetur nisi? Obcaecati facere, repellat consequatur 
+                  eveniet dicta ullam eum unde perspiciatis quae maxime nostrum veritatis, culpa, placeat dignissimos 
+                  laudantium. Modi laboriosam animi tempore provident veniam repellat dolore, tenetur accusamus nisi 
+                  id nesciunt tempora pariatur necessitatibus placeat voluptatum quo ipsam non. Porro velit in amet
+                   fuga saepe dicta officiis odio.
+               </p>
+
+</div>
+
+
+    </div>
+     <div style="clear: both"></div>
+
+    <div class="spolecznosciowe">
+     <div class="yt">        
+    <i class="icon-youtube"></i>
+</div>
+     <div class="fb"><i class="icon-fb"></i></div>
+     <div class="gplus">gplus</div>
+     <div class="tw"><i class="icon-twitter"></i></div>
+     <div style="clear:both;"></div>
+    <div style="clear:both"></div>
+    </div>
+    <div class="rectangle">2018 &copy; Sabina Sobieraj</div>
+
+</div>
+
+
+<script src="tytulowa.js"></script>
+</body>
+</html>

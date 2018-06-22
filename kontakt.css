@@ -1,0 +1,72 @@
+body {
+    background:url("img/Back.jpg") no-repeat fixed center;;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     }
+
+    .containerNew {
+      width: 500px;
+      margin: auto;
+    }
+
+    input[type=text], input[type=email], textarea {
+      width: 100%;
+      border: 1px solid rgb(51, 51, 51);
+      border-radius: 4px;
+      box-sizing: border-box;
+      padding: 10px;
+      margin: 5px 0;
+    }
+
+    input[type=submit] {
+      background: #333;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      text-transform: uppercase;
+      font-weight: bold;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    .alert-box {
+      width: 500px;
+      margin: auto;
+    }
+
+    .error {
+      background: rgb(219, 87, 87);
+      padding: 20px;
+      color: #fff;
+      text-align: center;
+    }
+
+    .message-success {
+      background: green;
+      padding: 20px;
+      color: #fff;
+      text-align: center;
+    }
+
+    .field-error-container {
+      position: relative;
+    }
+
+    .field-error-name, .field-error-email, .field-error-content {
+      position: absolute;
+      top: 31px;
+      right: 10px;
+      background: rgb(173, 69, 69);
+      color: #fff;
+      padding: 5px;
+      border-radius: 4px;
+      font-size: 14px;
+      display: none;
+    }
+    #zegarNew
+    {
+        float:left;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 40px;
+        text-align: right;
+        margin-left: 550px;
+    }
